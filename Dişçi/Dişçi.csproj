@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4E18E937-BD50-4799-BC61-5345D357BB68}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Dişçi</RootNamespace>
+    <AssemblyName>Dişçi</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApointmentList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApointmentList.Designer.cs">
+      <DependentUpon>ApointmentList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="buttonColor.cs" />
+    <Compile Include="CancelApointment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CancelApointment.Designer.cs">
+      <DependentUpon>CancelApointment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DentistAutomationDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DentistAutomationDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DentistAutomationDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DentistAutomationDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DentistAutomationDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DentistAutomationDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DentistAutomationDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DentistAutomationDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DentistAutomationDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DentistAutomationDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DentistAutomationDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DentistAutomationDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DentistAutomationDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DentistAutomationDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DentistAutomationDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DentistAutomationDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DentistAutomationDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DentistAutomationDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="inPrice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inPrice.Designer.cs">
+      <DependentUpon>inPrice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="materialList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="materialList.Designer.cs">
+      <DependentUpon>materialList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="materials.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="materials.Designer.cs">
+      <DependentUpon>materials.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MySqlDataAdapter.cs" />
+    <Compile Include="operationprices.cs" />
+    <Compile Include="patientsInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="patientsInfo.Designer.cs">
+      <DependentUpon>patientsInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="price.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="price.Designer.cs">
+      <DependentUpon>price.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RandevuKayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RandevuKayit.Designer.cs">
+      <DependentUpon>RandevuKayit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="settings.Designer.cs">
+      <DependentUpon>settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="todayApointment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="todayApointment.Designer.cs">
+      <DependentUpon>todayApointment.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ApointmentList.resx">
+      <DependentUpon>ApointmentList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CancelApointment.resx">
+      <DependentUpon>CancelApointment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inPrice.resx">
+      <DependentUpon>inPrice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="materialList.resx">
+      <DependentUpon>materialList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="materials.resx">
+      <DependentUpon>materials.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="patientsInfo.resx">
+      <DependentUpon>patientsInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="price.resx">
+      <DependentUpon>price.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="RandevuKayit.resx">
+      <DependentUpon>RandevuKayit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="settings.resx">
+      <DependentUpon>settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="todayApointment.resx">
+      <DependentUpon>todayApointment.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="DentistAutomationDataSet.xsc">
+      <DependentUpon>DentistAutomationDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DentistAutomationDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DentistAutomationDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DentistAutomationDataSet.xss">
+      <DependentUpon>DentistAutomationDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DentistAutomationDataSet1.xsc">
+      <DependentUpon>DentistAutomationDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DentistAutomationDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DentistAutomationDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DentistAutomationDataSet1.xss">
+      <DependentUpon>DentistAutomationDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DentistAutomationDataSet2.xsc">
+      <DependentUpon>DentistAutomationDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="DentistAutomationDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DentistAutomationDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DentistAutomationDataSet2.xss">
+      <DependentUpon>DentistAutomationDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="DentistAutomationDataSet3.xsc">
+      <DependentUpon>DentistAutomationDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="DentistAutomationDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DentistAutomationDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DentistAutomationDataSet3.xss">
+      <DependentUpon>DentistAutomationDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="DentistAutomationDataSet4.xsc">
+      <DependentUpon>DentistAutomationDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="DentistAutomationDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DentistAutomationDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DentistAutomationDataSet4.xss">
+      <DependentUpon>DentistAutomationDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="DentistAutomationDataSet5.xsc">
+      <DependentUpon>DentistAutomationDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="DentistAutomationDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DentistAutomationDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DentistAutomationDataSet5.xss">
+      <DependentUpon>DentistAutomationDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="DentistAutomationDataSet6.xsc">
+      <DependentUpon>DentistAutomationDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="DentistAutomationDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DentistAutomationDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DentistAutomationDataSet6.xss">
+      <DependentUpon>DentistAutomationDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="DentistAutomationDataSet7.xsc">
+      <DependentUpon>DentistAutomationDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="DentistAutomationDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DentistAutomationDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DentistAutomationDataSet7.xss">
+      <DependentUpon>DentistAutomationDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="DentistAutomationDataSet8.xsc">
+      <DependentUpon>DentistAutomationDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="DentistAutomationDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DentistAutomationDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DentistAutomationDataSet8.xss">
+      <DependentUpon>DentistAutomationDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
